@@ -38,17 +38,6 @@
         $(".offcanvas-menu-overlay").removeClass("active");
     });
 
-    // Search model
-    $('.search-switch').on('click', function () {
-        $('.search-model').fadeIn(400);
-    });
-
-    $('.search-close-switch').on('click', function () {
-        $('.search-model').fadeOut(400, function () {
-            $('#search-input').val('');
-        });
-    });
-
     /*------------------
 		Navigation
 	--------------------*/
@@ -85,25 +74,5 @@
         nav: true,
         navText: ["<i class='arrow_left'></i>", "<i class='arrow_right'></i>"]
     });
-
-    /*------------------
-        Magnific Popup
-    --------------------*/
-    $('.video-popup').magnificPopup({
-        type: 'iframe'
-    });
-
-    /*------------------
-		Date Picker
-	--------------------*/
-    $(".date-input").datepicker({
-        minDate: 0,
-        dateFormat: 'dd MM, yy'
-    });
-
-    /*------------------
-		Nice Select
-	--------------------*/
-    $("select").niceSelect();
 
 })(jQuery);

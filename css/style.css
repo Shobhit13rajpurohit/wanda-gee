@@ -733,6 +733,10 @@ ul, ol {
 	position: relative;
 	overflow: hidden;
 }
+.hp-room-items .hp-room-item:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transform: translateY(-5px);
+}
 .hp-room-items .hp-room-item:hover .hr-text {
 	bottom: 135px;
 }
@@ -1161,6 +1165,13 @@ ul, ol {
 }
 .room-item {
 	margin-bottom: 30px;
+	-webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	-o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.room-item:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transform: translateY(-5px);
 }
 .room-item img {
 	min-width: 100%;
