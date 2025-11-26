@@ -385,6 +385,7 @@ ul, ol {
 .menu-item {
 	position: relative;
 	z-index: 9;
+	background-color: #000;
 }
 .menu-item .logo {
 	padding: 25px 0;
@@ -417,7 +418,7 @@ ul, ol {
 }
 .menu-item .nav-menu .mainmenu li a {
 	font-size: 16px;
-	color: #19191a;
+	color: #fff;
 	margin-right: 42px;
 	font-weight: 500;
 	display: inline-block;
