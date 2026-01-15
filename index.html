@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -24,15 +24,6 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <style>
-        body { font-family: 'Open Sans', sans-serif; }
-        h1, h2, h3, h4, h5, h6 { font-family: 'Lora', serif; }
-        .hero-section { background: #002B5B; }
-        /* Overriding hero image for now with a solid color if image is missing or irrelevant */
-        .hero-section .hs-item { background-image: none; background-color: #002B5B; }
-        .service-item { border: 1px solid #eee; margin-bottom: 20px; }
-        .nav-menu .mainmenu ul li .dropdown { width: 300px; }
-    </style>
 </head>
 
 <body>
@@ -74,7 +65,7 @@
                     </ul>
                 </li>
                 <li><a href="./blog.html">Insights</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -87,31 +78,13 @@
 
     <!-- Header Section Begin -->
     <header class="header-section">
-        <div class="top-nav">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <ul class="tn-left">
-                            <li><i class="fa fa-phone"></i> +91-9461620002</li>
-                            <li><i class="fa fa-envelope"></i> info@Syncronisers.com</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="tn-right">
-                            <a href="./contact.html" class="bk-btn">Schedule Consultation</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="menu-item">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-3">
                         <div class="logo">
                             <a href="./index.html">
-                                <h2 style="color: #002B5B; margin-top: 10px;">Syncronisers</h2>
-                                <!-- <img src="img/logo.png" alt=""> -->
+                                <h2 style="color: #002B5B; margin: 0;">Syncronisers</h2>
                             </a>
                         </div>
                     </div>
@@ -121,7 +94,7 @@
                                 <ul>
                                     <li class="active"><a href="./index.html">Home</a></li>
                                     <li><a href="./about.html">About Us</a></li>
-                                    <li class="mega-parent"><a href="#">Services</a>
+                                    <li class="mega-parent"><a href="#">Services <i class="fa fa-angle-down"></i></a>
                                         <ul class="dropdown mega-menu">
                                             <li><a href="./services/gcc-advisory.html">GCC Advisory</a></li>
                                             <li><a href="./services/gcc-setup-india.html">GCC Setup India</a></li>
@@ -139,6 +112,7 @@
                                     </li>
                                     <li><a href="./blog.html">Insights</a></li>
                                     <li><a href="./contact.html">Contact</a></li>
+                                    <li style="margin-left: 20px;"><a href="./contact.html" class="primary-btn" style="color: #fff; padding: 12px 25px; border-radius: 50px;">Get Started</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -155,9 +129,10 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="hero-text">
-                        <h1>Expert GCC Setup & Support in India</h1>
-                        <p>Law Firm + CA Firm. We provide end-to-end Global Capability Center (GCC) solutions for international companies expanding to India.</p>
-                        <a href="./contact.html" class="primary-btn">Talk to Our Experts</a>
+                        <h1>Your Gateway to Global Capability Centers in India</h1>
+                        <p>We are a premier Law Firm and CA Firm providing end-to-end setup, legal, taxation, and compliance solutions for international companies expanding to India.</p>
+                        <a href="./contact.html" class="primary-btn">Start Your Journey</a>
+                        <a href="./about.html" class="primary-btn" style="background: transparent; border: 2px solid #fff; margin-left: 15px;">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -177,17 +152,24 @@
                 <div class="col-lg-6">
                     <div class="about-text">
                         <div class="section-title">
-                            <span>Who We Are</span>
-                            <h2>Your Trusted Partners for GCC Success</h2>
+                            <span>About Us</span>
+                            <h2>We Simplify Business in India</h2>
                         </div>
-                        <p class="f-para">Syncronisers is a premier Law Firm and CA Firm dedicated to providing comprehensive setup and support services for Global Capability Centers (GCCs).</p>
-                        <p class="s-para">We assist foreign companies, international startups, and MNCs in establishing a robust presence in India. With expertise in Legal, Taxation, Compliance, and Advisory, we ensure your expansion is seamless and compliant.</p>
-                        <a href="./about.html" class="primary-btn about-btn">Read More</a>
+                        <p class="f-para">Syncronisers is your trusted partner for establishing and operating Global Capability Centers (GCCs) in India. We combine legal expertise with financial acumen to offer a seamless entry strategy.</p>
+                        <p class="s-para">Our team of experienced Lawyers, Chartered Accountants, and Business Advisors works tirelessly to ensure your compliance, mitigate risks, and optimize operational efficiency. Whether you are a startup or a Fortune 500 company, we have the expertise to scale your operations.</p>
+                        <a href="./about.html" class="primary-btn">Read More About Us</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-pic">
-                        <img src="img/about/clay-banks-b5S4FrJb7yQ-unsplash.jpg" alt="Syncronisers Office">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="img/about/about-1.jpg" alt="" style="border-radius: 8px; margin-bottom: 20px;">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/about/about-2.jpg" alt="" style="border-radius: 8px;">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -203,62 +185,132 @@
                     <div class="section-title">
                         <span>Our Expertise</span>
                         <h2>Comprehensive GCC Services</h2>
+                        <p style="max-width: 600px; margin: 0 auto 50px;">From incorporation to ongoing compliance, we handle every aspect of your business setup in India.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <i class="fa fa-globe"></i>
+                        <i class="flaticon-036-parking"></i>
                         <h4>GCC Advisory</h4>
-                        <p>Strategic guidance for setting up and optimizing your Global Capability Center.</p>
-                        <a href="./services/gcc-advisory.html" style="color: #002B5B; font-weight: bold;">Learn More</a>
+                        <p>Strategic roadmap, feasibility studies, and location analysis for your India center.</p>
+                        <a href="./services/gcc-advisory.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <i class="fa fa-building"></i>
+                        <i class="flaticon-033-dinner"></i>
                         <h4>Entity Setup</h4>
-                        <p>Complete company incorporation and legal entity structuring in India.</p>
-                        <a href="./services/company-incorporation.html" style="color: #002B5B; font-weight: bold;">Learn More</a>
+                        <p>Fast-track company incorporation (Pvt Ltd, LLP, Branch Office) with full legal support.</p>
+                        <a href="./services/company-incorporation.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <i class="fa fa-gavel"></i>
+                        <i class="flaticon-026-bed"></i>
                         <h4>Legal & Compliance</h4>
-                        <p>Ensuring full regulatory compliance with Indian laws and international standards.</p>
-                        <a href="./services/legal-compliance.html" style="color: #002B5B; font-weight: bold;">Learn More</a>
+                        <p>Navigating the complex Indian legal framework with expert counsel and risk management.</p>
+                        <a href="./services/legal-compliance.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <i class="fa fa-calculator"></i>
+                        <i class="flaticon-024-towel"></i>
                         <h4>Taxation</h4>
-                        <p>Expert handling of Taxation, Transfer Pricing, and GST requirements.</p>
-                        <a href="./services/taxation-transfer-pricing.html" style="color: #002B5B; font-weight: bold;">Learn More</a>
+                        <p>Corporate tax planning, Transfer Pricing (TP) studies, and GST compliance.</p>
+                        <a href="./services/taxation-transfer-pricing.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <i class="fa fa-users"></i>
+                        <i class="flaticon-044-clock-1"></i>
                         <h4>Payroll & HR</h4>
-                        <p>Managing payroll processing and HR compliance for your Indian workforce.</p>
-                        <a href="./services/payroll-hr.html" style="color: #002B5B; font-weight: bold;">Learn More</a>
+                        <p>End-to-end payroll processing, social security compliance, and HR advisory.</p>
+                        <a href="./services/payroll-hr.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <i class="fa fa-line-chart"></i>
+                        <i class="flaticon-012-cocktail"></i>
                         <h4>Virtual CFO</h4>
-                        <p>High-level financial strategy and management without the full-time cost.</p>
-                        <a href="./services/virtual-cfo.html" style="color: #002B5B; font-weight: bold;">Learn More</a>
+                        <p>Expert financial leadership to guide your growth without the overhead of a full-time CFO.</p>
+                        <a href="./services/virtual-cfo.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-12 text-center">
+                    <a href="./contact.html" class="primary-btn">View All Services</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- Services Section End -->
+
+    <!-- Why Choose Us Section Begin -->
+    <section class="spad" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Why Syncronisers</span>
+                        <h2>The Syncronisers Advantage</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="service-item" style="text-align: center; padding: 30px;">
+                        <i class="fa fa-check-circle" style="font-size: 40px; margin-bottom: 20px;"></i>
+                        <h4>One-Stop Solution</h4>
+                        <p>Legal, Tax, and HR under one roof.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="service-item" style="text-align: center; padding: 30px;">
+                        <i class="fa fa-users" style="font-size: 40px; margin-bottom: 20px;"></i>
+                        <h4>Expert Team</h4>
+                        <p>Led by seasoned Lawyers & CAs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="service-item" style="text-align: center; padding: 30px;">
+                        <i class="fa fa-shield" style="font-size: 40px; margin-bottom: 20px;"></i>
+                        <h4>Risk Mitigation</h4>
+                        <p>Proactive compliance management.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="service-item" style="text-align: center; padding: 30px;">
+                        <i class="fa fa-rocket" style="font-size: 40px; margin-bottom: 20px;"></i>
+                        <h4>Fast Setup</h4>
+                        <p>Accelerated entry into the Indian market.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us Section End -->
+
+    <!-- Call To Action Section Begin -->
+    <section class="spad" style="background: #002B5B; text-align: center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="section-title" style="margin-bottom: 30px;">
+                        <span style="color: #fff;">Ready to Expand?</span>
+                        <h2 style="color: #fff; border-bottom-color: #fff;">Let's Build Your GCC Together</h2>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.8); font-size: 18px; margin-bottom: 40px;">
+                        Schedule a free consultation with our experts to discuss your India entry strategy.
+                    </p>
+                    <a href="./contact.html" class="primary-btn" style="background: #fff; color: #002B5B; border-color: #fff;">Schedule Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
@@ -269,34 +321,36 @@
                         <div class="ft-about">
                             <div class="logo">
                                 <a href="#">
-                                    <h3 style="color: #002B5B;">Syncronisers</h3>
+                                    <h3 style="color: #fff; margin-bottom: 20px;">Syncronisers</h3>
                                 </a>
                             </div>
-                            <p>Law Firm + CA Firm providing specialized Global Capability Center (GCC) setup and support services.</p>
+                            <p>Syncronisers is a premier Law Firm and CA Firm dedicated to providing comprehensive setup and support services for Global Capability Centers (GCCs).</p>
                             <div class="fa-social">
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 offset-lg-1">
                         <div class="ft-contact">
                             <h6>Contact Us</h6>
-                            <ul>
-                                <li>+91-9461620002</li>
-                                <li>info@Syncronisers.com</li>
-                                <li>India</li>
+                            <ul style="padding-left: 0;">
+                                <li><i class="fa fa-phone" style="margin-right: 10px; color: #C5A059;"></i> +91-9461620002</li>
+                                <li><i class="fa fa-envelope" style="margin-right: 10px; color: #C5A059;"></i> info@Syncronisers.com</li>
+                                <li><i class="fa fa-map-marker" style="margin-right: 10px; color: #C5A059;"></i> India</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 offset-lg-1">
                         <div class="ft-newslatter">
                             <h6>Quick Links</h6>
-                            <ul>
+                            <ul style="padding-left: 0;">
                                 <li><a href="./index.html">Home</a></li>
                                 <li><a href="./about.html">About Us</a></li>
                                 <li><a href="./blog.html">Insights</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="./contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -308,8 +362,8 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <ul>
-                            <li><a href="./blog.html">Insights</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                         </ul>
                     </div>

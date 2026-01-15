@@ -75,4 +75,15 @@
         navText: ["<i class='arrow_left'></i>", "<i class='arrow_right'></i>"]
     });
 
+    /*------------------
+        Sticky Header
+    --------------------*/
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.header-section').addClass('header-sticky');
+        } else {
+            $('.header-section').removeClass('header-sticky');
+        }
+    });
+
 })(jQuery);
