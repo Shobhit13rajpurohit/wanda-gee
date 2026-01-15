@@ -2862,24 +2862,3 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 80px;
     }
 }
-
-/* Smart Header Styles */
-.header-section {
-    transition: transform 0.3s ease-out, background 0.3s, box-shadow 0.3s;
-}
-
-.header-section.header-sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 5px 30px rgba(0,0,0,0.1);
-}
-
-.header-section.header-hidden {
-    transform: translateY(-100%);
-}
-
-.header-section.header-visible {
-    transform: translateY(0);
-}
