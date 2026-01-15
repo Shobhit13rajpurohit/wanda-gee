@@ -97,14 +97,6 @@
         }
 
         lastScrollTop = currentScrollTop;
-        Sticky Header
-    --------------------*/
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.header-section').addClass('header-sticky');
-        } else {
-            $('.header-section').removeClass('header-sticky');
-        }
     });
 
 })(jQuery);
