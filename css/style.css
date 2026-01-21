@@ -2007,7 +2007,7 @@ ul, ol {
 		left: 0;
 		top: 0;
 		background: rgba(0, 0, 0, 0.7);
-		z-index: 98;
+		z-index: 1050;
 		height: 100%;
 		width: 100%;
 		visibility: hidden;
@@ -2020,7 +2020,7 @@ ul, ol {
 	}
 	.canvas-open {
 		position: absolute;
-		right: 40px;
+		right: 30px;
 		top: 25px;
 		font-size: 22px;
 		width: 30px;
@@ -2039,7 +2039,7 @@ ul, ol {
 		left: -300px;
 		top: 0;
 		width: 300px;
-		z-index: 999;
+		z-index: 1100;
 		background: #ffffff;
 		text-align: center;
 		overflow-y: auto;
