@@ -2997,3 +2997,97 @@ h1, h2, h3, h4, h5, h6 {
      padding: 10px 20px;
      border-radius: 20px;
 }
+
+/* =========================================
+   New Section Styles (Added for Content Expansion)
+   ========================================= */
+
+/* Process Section */
+.process-item {
+    padding: 30px 15px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+.process-item:hover {
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+.process-item h4 {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* Location Item */
+.location-item {
+    transition: all 0.3s;
+}
+.location-item:hover {
+    background: rgba(255,255,255,0.2) !important;
+    transform: translateY(-5px);
+}
+
+/* FAQ Section */
+.faq-card {
+    border: 1px solid #ebebeb !important;
+    border-radius: 5px !important;
+    margin-bottom: 15px !important;
+    overflow: hidden;
+}
+.faq-header {
+    background: #fff !important;
+    border-bottom: 1px solid #ebebeb;
+}
+.faq-btn {
+    color: #19191a !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    width: 100%;
+    text-align: left;
+    padding: 20px 30px !important;
+    transition: all 0.3s;
+}
+.faq-btn:hover {
+    color: #002B5B !important;
+    background: #f9f9f9;
+}
+.faq-btn:focus {
+    box-shadow: none;
+    text-decoration: none;
+}
+.card-body {
+    padding: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707079;
+}
+
+/* SEO Tags */
+.seo-tags a {
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.seo-tags a:hover {
+    color: #C5A059 !important;
+    text-decoration: underline;
+}
+
+/* Footer Adjustments */
+.footer-section {
+    background: #111;
+}
+.ft-widget h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.ft-widget ul li a {
+    transition: all 0.3s;
+    display: block;
+}
+.ft-widget ul li a:hover {
+    color: #C5A059 !important;
+    padding-left: 5px;
+}
