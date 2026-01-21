@@ -2453,7 +2453,7 @@ ul, ol {
 
 /* General Polish */
 .hero-slider .hs-item {
-    height: 700px; /* Ensure height */
+    height: 100%; /* Ensure height */
     position: relative;
     background-color: #002B5B; /* Fallback color */
 }
@@ -2853,6 +2853,34 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+/* Counter Section */
+.counter-section {
+    background-color: #002B5B;
+    padding: 60px 0;
+}
+.counter-item {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.counter-item i {
+    font-size: 40px;
+    color: #C5A059;
+    margin-bottom: 15px;
+    display: block;
+}
+.counter-item h2 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.counter-item p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 0;
+}
+
 /* Responsive Fixes */
 @media (max-width: 991px) {
     .header-section {
@@ -2865,4 +2893,107 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 80px;
         padding-bottom: 80px;
     }
+}
+
+/* Service Page Refactoring - New Classes */
+.service-intro-text {
+    font-size: 20px;
+    color: #002B5B;
+    font-weight: bold;
+}
+
+.service-offering-item {
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    padding: 20px; /* Assuming default padding was there or needed */
+}
+
+.service-offering-title {
+    font-size: 20px;
+    margin-bottom: 15px; /* Adding some spacing */
+}
+
+.process-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.process-list-item {
+    margin-bottom: 15px;
+    padding-left: 25px; /* Increased slightly for icon space */
+    position: relative;
+}
+
+.process-icon {
+    color: #002B5B;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.process-title {
+    font-weight: bold;
+    color: #19191a;
+}
+
+.process-desc {
+    margin-top: 5px;
+}
+
+.faq-card {
+    border: none !important;
+    margin-bottom: 10px;
+}
+
+.faq-header {
+    background: #f9f9f9;
+    padding: 0;
+}
+
+.faq-btn {
+    color: #002B5B !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background: transparent;
+    border: none;
+}
+
+.faq-btn:hover, .faq-btn:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.cta-box {
+    background: #002B5B;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta-title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cta-desc {
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background: #fff !important;
+    color: #002B5B !important;
+    border-color: #fff !important;
+}
+
+.sidebar-contact-btn {
+     color: #002B5B !important;
+     font-weight: bold;
+     background: white;
+     padding: 10px 20px;
+     border-radius: 20px;
 }
